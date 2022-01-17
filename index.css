@@ -1,3 +1,166 @@
-h1 {
-  color: #00f;
+/* stylelint-disable-next-line no-empty-first-line */
+
+.html {
+  box-sizing: border-box;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+nav {
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #000;
+  margin-top: 0.4rem;
+  position: sticky;
+  font-weight: bold;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.nav-ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-item {
+  border-right: 1px solid lightgray;
+  font-weight: bold;
+}
+
+/* This is the important piece */
+.nav-item:last-of-type {
+  border-right: none;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  display: none;
+}
+
+#isbn {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-book-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.form-inputs {
+  width: 50%;
+  border: 3px solid #000;
+  line-height: 30px;
+}
+
+::placeholder {
+  font-weight: bold;
+  color: #000;
+  padding-left: 0.3rem;
+  font-size: 13px;
+}
+
+.new-book-hr {
+  width: 20%;
+  background-color: #000;
+}
+
+.form-btn {
+  align-self: flex-end;
+  margin-right: 25%;
+  border: 3px solid;
+  box-shadow: 4px 4px 1px #000;
+  background-color: #fff;
+}
+
+.list-head {
+  text-align: center;
+  font-weight: bold;
+  display: none;
+}
+
+#book-list {
+  border: 3px solid #000;
+  line-height: 20px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 94vw;
+  display: none;
+}
+
+.button {
+  border: 3px solid;
+  box-shadow: 4px 4px 1px #000;
+  background-color: #fff;
+  left: 80%;
+  font-weight: bold;
+  margin: 0.4% 0.5rem 0.4% auto;
+}
+
+#row {
+  display: flex;
+}
+
+p {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.row-btn {
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  padding-left: 0.3rem;
+  line-height: 30px;
+}
+
+#row:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.copyright {
+  position: fixed;
+  border: 3px solid #000;
+  font-weight: bold;
+}
+
+.copyright p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.contact-info {
+  font-weight: bold;
+  display: none;
+}
+
+.contact-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-head {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+footer {
+  margin-top: 28rem;
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
 }
