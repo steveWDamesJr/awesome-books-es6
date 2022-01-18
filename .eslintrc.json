@@ -5,8 +5,6 @@
     "jest": true
   },
   "settings": {
-    "import/no-unresolved": "off",
-    "import/extensions": "off",
     "import/resolver": {
       "node": {
         "paths": ["src"],
@@ -30,6 +28,7 @@
     "no-shadow": "off",
     "no-param-reassign": "off",
     "eol-last": "off",
+    "import/no-unresolved": "off",
     "import/extensions": "off"
   },
   "ignorePatterns": [
