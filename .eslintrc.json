@@ -7,7 +7,9 @@
   "settings": {
     "import/resolver": {
       "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+        "paths": ["src"],
+        "extensions": [".js", ".jsx", ".d.ts", ".ts", ".tsx"],
+        "moduleDirectory": ["node_modules", "src/"]
       }
     }
   },
@@ -18,15 +20,17 @@
   },
   "extends": [
     "airbnb-base",
+    "eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
     "plugin:import/typescript"
   ],
   "rules": {
     "no-shadow": "off",
     "no-param-reassign": "off",
     "eol-last": "off",
-    "import/extensions": [ 1, {
-      "js": "always", "json": "always"
-    }]
+    "import/extensions": "off"
   },
   "ignorePatterns": [
     "dist/",

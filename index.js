@@ -1,7 +1,7 @@
-import { DateTime } from './node_modules/luxon/src/luxon.js';
 import Book from './modules/constructor.js';
 import UI from './modules/ui.js';
 import Store from './modules/store.js';
+import { DateTime } from './modules/luxon/src/luxon.js';
 // eslint-disable-next-line max-classes-per-file
 
 const dt = DateTime.now();
