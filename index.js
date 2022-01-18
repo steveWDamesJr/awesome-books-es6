@@ -1,7 +1,7 @@
 import Book from './modules/constructor.js';
 import UI from './modules/ui.js';
 import Store from './modules/store.js';
-import { DateTime } from './node_modules/luxon/src/luxon.js';
+import { DateTime } from '/node_modules/luxon/src/luxon.js';
 
 const dt = DateTime.now().toLocaleString(DateTime.DATETIME_FULL);
 
