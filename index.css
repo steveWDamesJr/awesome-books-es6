@@ -1,5 +1,3 @@
-/* stylelint-disable-next-line no-empty-first-line */
-
 .html {
   box-sizing: border-box;
   font-family: "Yanone Kaffeesatz", sans-serif;
@@ -33,7 +31,6 @@ nav {
   font-weight: bold;
 }
 
-/* This is the important piece */
 .nav-item:last-of-type {
   border-right: none;
 }

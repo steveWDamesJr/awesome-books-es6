@@ -2,7 +2,6 @@ import Store from './store.js';
 
 export default class UI {
   static displayBooks() {
-    // eslint-disable-next-line no-use-before-define
     const books = Store.getBooks();
 
     books.forEach((book) => UI.addBookToList(book));

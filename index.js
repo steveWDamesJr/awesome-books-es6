@@ -1,10 +1,9 @@
 import Book from './modules/constructor.js';
 import UI from './modules/ui.js';
 import Store from './modules/store.js';
+import { DateTime } from './node_modules/luxon/src/luxon.js';
 
-// eslint-disable-next-line max-classes-per-file
-const { luxon } = window;
-const dt = luxon.DateTime.now();
+const dt = DateTime.now().toLocaleString(DateTime.DATETIME_FULL);
 
 document.getElementById('date-time').innerHTML = dt;
 
