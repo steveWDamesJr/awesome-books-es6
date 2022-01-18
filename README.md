@@ -22,7 +22,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://stevewdamesjr.github.io/awesome-books/)
+UNAVAILABLE REQUIRES A SERVER
 
 
 ## Getting Started
