@@ -1,0 +1,3 @@
+export declare type MessageName = 'error' | 'errorCount' | 'errors' | 'errorsCount' | 'hint' | 'hintCount' | 'hints' | 'hintsCount' | 'information' | 'informationCount' | 'informations' | 'informationsCount' | 'totalFound' | 'warning' | 'warningCount' | 'warnings' | 'warningsCount';
+export declare const getMessage: (message: MessageName, language: string, substitutions?: string | string[] | undefined) => string;
+//# sourceMappingURL=i18n.import.d.ts.map

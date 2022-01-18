@@ -1,0 +1,1 @@
+{"version":3,"file":"alternatives.d.ts","sourceRoot":"","sources":["../../../src/utils/alternatives.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,kBAAkB,EAAE,mBAAmB,EAAE,MAAM,yBAAyB,CAAC;AAMlF,oBAAY,yBAAyB,GAAG,kBAAkB,GAAG;IACzD,OAAO,EAAE,MAAM,CAAC;CACnB,CAAC;AAmDF,eAAO,MAAM,kBAAkB,aAAc,MAAM,eAAe,mBAAmB,0BAAyB,MAAM,KAAK,MAAM,kBAAG,MAAM,EAgBvI,CAAC"}

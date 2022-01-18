@@ -1,0 +1,48 @@
+{
+    "connector": "local",
+    "extends": [
+        "accessibility",
+        "progressive-web-apps"
+    ],
+    "formatters": [
+        "html",
+        "summary"
+    ],
+    "hints": [
+        "apple-touch-icons",
+        "button-type",
+        "compat-api/css",
+        "compat-api/html",
+        "create-element-svg",
+        "css-prefix-order",
+        "disown-opener",
+        "highest-available-document-mode",
+        "leading-dot-classlist",
+        "manifest-exists",
+        "meta-charset-utf-8",
+        "meta-viewport",
+        "no-bom",
+        "no-inline-styles",
+        "no-protocol-relative-urls",
+        "scoped-svg-styles",
+        "sri",
+        "typescript-config/consistent-casing",
+        "typescript-config/import-helpers",
+        "typescript-config/is-valid",
+        "typescript-config/strict",
+        "typescript-config/target"
+    ],
+    "hintsTimeout": 10000,
+    "parsers": [
+        "babel-config",
+        "css",
+        "html",
+        "javascript",
+        "jsx",
+        "less",
+        "sass",
+        "typescript",
+        "typescript-config",
+        "webpack-config"
+    ]
+}

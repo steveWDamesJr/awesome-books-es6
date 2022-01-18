@@ -1,0 +1,14 @@
+{
+    "description": {
+        "description": "Metadata description",
+        "message": "Disallow protocol relative URLs"
+    },
+    "name": {
+        "description": "Metadata name",
+        "message": "No protocol-relative URLs"
+    },
+    "noProtocolRelativeUrl": {
+        "description": "Report message when a protocol relative URL is found",
+        "message": "References to URLs should not be protocol-relative."
+    }
+}

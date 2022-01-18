@@ -1,0 +1,1 @@
+{"version":3,"file":"hint.d.ts","sourceRoot":"","sources":["../../src/hint.ts"],"names":[],"mappings":"AAGA,OAAO,EAAE,WAAW,EAAE,KAAK,EAAE,MAAM,MAAM,CAAC;AAG1C,OAAO,EAAE,UAAU,EAAa,MAAM,mBAAmB,CAAC;AAY1D,MAAM,CAAC,OAAO,OAAO,kBAAmB,YAAW,KAAK;IACpD,gBAAuB,IAAI,8BAAQ;gBAEhB,OAAO,EAAE,WAAW,CAAC,UAAU,CAAC;CAuDtD"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"cssstyledeclaration.d.ts","sourceRoot":"","sources":["../../src/cssstyledeclaration.ts"],"names":[],"mappings":"AAGA,qBAAa,mBAAmB;IAC5B,OAAO,CAAC,OAAO,CAA2B;gBAKvB,MAAM,GAAE;QAAC,CAAC,IAAI,EAAE,MAAM,GAAG,MAAM,CAAA;KAAM;IAOjD,gBAAgB,CAAC,IAAI,EAAE,MAAM;CAGvC"}

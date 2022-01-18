@@ -1,0 +1,3 @@
+export declare type MessageName = 'backToTop' | 'capitalizedHints' | 'closeAll' | 'configuartionJSON' | 'copy' | 'date' | 'expand' | 'expandAll' | 'furtherReading' | 'gatheringResults' | 'hintNumber' | 'hints' | 'howToFixIt' | 'jumpToCategory' | 'noIssues' | 'passed' | 'performScan' | 'runWebhintAgain' | 'scanning' | 'scanTime' | 'showHintResultDetails' | 'thereWasAnError' | 'toLearnMore' | 'top' | 'url' | 'webhintVersion' | 'whyIsThisImportant' | 'withTheHelpOf' | 'youCanView' | 'yourScanResultLink';
+export declare const getMessage: (message: MessageName, language: string, substitutions?: string | string[] | undefined) => string;
+//# sourceMappingURL=i18n.import.d.ts.map
