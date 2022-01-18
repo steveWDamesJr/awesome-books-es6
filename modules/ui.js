@@ -1,4 +1,5 @@
-import Store from './store.js'
+import Store from './store.js';
+
 export default class UI {
   static displayBooks() {
     // eslint-disable-next-line no-use-before-define
