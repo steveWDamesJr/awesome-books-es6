@@ -5,6 +5,8 @@
     "jest": true
   },
   "settings": {
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
     "import/resolver": {
       "node": {
         "paths": ["src"],
