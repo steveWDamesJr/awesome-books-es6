@@ -16,7 +16,10 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "extends": ["airbnb-base"],
+  "extends": [
+    "airbnb-base",
+    "plugin:import/typescript"
+  ],
   "rules": {
     "no-shadow": "off",
     "no-param-reassign": "off",
