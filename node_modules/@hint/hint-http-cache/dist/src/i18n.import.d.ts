@@ -1,0 +1,3 @@
+export declare type MessageName = 'description' | 'directiveInvalid' | 'directiveInvalidValue' | 'directiveNotRecomended' | 'name' | 'noCacheBustingPattern' | 'noHeaderFound' | 'staticNotImmutable' | 'staticResourceCacheValue' | 'targetShouldNotBeCached' | 'wrongCombination';
+export declare const getMessage: (message: MessageName, language: string, substitutions?: string | string[] | undefined) => string;
+//# sourceMappingURL=i18n.import.d.ts.map

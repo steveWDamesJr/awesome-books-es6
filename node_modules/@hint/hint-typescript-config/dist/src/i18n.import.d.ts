@@ -1,0 +1,3 @@
+export declare type MessageName = 'consistentCasing_description' | 'consistentCasing_name' | 'couldNotFindTSLib' | 'forceConsistentCasingInFileNames' | 'importHelpers_description' | 'importHelpers_name' | 'importHelpers' | 'isValid_description' | 'isValid_name' | 'noComments_description' | 'noComments_name' | 'removeComments' | 'strict' | 'strict_description' | 'strict_name' | 'target_description' | 'target_name' | 'target';
+export declare const getMessage: (message: MessageName, language: string, substitutions?: string | string[] | undefined) => string;
+//# sourceMappingURL=i18n.import.d.ts.map

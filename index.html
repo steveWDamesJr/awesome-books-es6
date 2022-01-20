@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Books</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light flex flex-row bg-light bd-highlight justify-content-between">
+      <a class="navbar-brand logo" href="#" onclick="Toogle()">Awesome Books</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="nav-ul navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="text-primary nav-link" id="List" href="#">List<span class="sr-only">(current)</span></a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" id="add-new" href="#">Add new</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+    <div class="container d-flex flex-row justify-content-end mr-4">
+    <p><span class="date" id="date-time"></span></p>
+   </div>
+    <h1 class="title"><strong>All awesome books</strong></h1>
+  </header>
+  <main>
+    <h2 class="list-head">All awesome books</h2>
+<div id="book-list">
+  
+
+</div>
+
+<h3 class="add-book-title">Add a new book</h3>
+    
+    <form id="book-form" action="#">
+      <input class="form-inputs" type="text" id="btitle" name="btitle" placeholder="Title"><br>
+      <input class="form-inputs" type="text" id="author" name="author" placeholder="Author"><br>
+      <input class ="form-btn" type="submit" value="Add">
+      <input type="text" id="isbn" name="isbn" placeholder="Isbn">
+    </form>
+  </main>
+<div class="contact-info">
+  <div class="contact-con">
+  <h4 id="contact-head">Contact information</h4>
+  <p class="text-center">Do you have any question or you just want to say "Hello"?<br>
+  <span class="text-center-span d-flex flex-row">You can reach out to us!</span></p>
+  <ul class="contact-list">
+    <li>Our e-mail: steve@gmail.com</li>
+    <li>Our phone number: +00 (458) 379 4400</li>
+    <li>Our address: Nice Street 22, 22521 City, Zilwet</li>
+  </ul>
+</div>
+</div>
+  
+
+  <footer class="page-footer fixed-bottom">
+    <div class="copyright navbar navbar-fixed-bottom container-fluid text-center text-md-left footer-copyright">
+      <p>Copyright © 2022 Steve Dames </p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"></script>
+
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>

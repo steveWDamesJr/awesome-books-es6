@@ -1,0 +1,20 @@
+{
+    "connector": {
+        "name": "puppeteer"
+    },
+    "formatters": [
+        "html",
+        "summary"
+    ],
+    "hints": [
+        "apple-touch-icons",
+        "manifest-app-name",
+        "manifest-exists",
+        "manifest-file-extension",
+        "manifest-is-valid"
+    ],
+    "hintsTimeout": 120000,
+    "parsers": [
+        "manifest"
+    ]
+}

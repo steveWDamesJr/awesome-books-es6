@@ -1,0 +1,3 @@
+export declare type MessageName = 'algorithmNotMeetBaseline' | 'canNotGetResource' | 'crossoriginInvalid' | 'crossoriginNeeded' | 'description' | 'hashDoesNotMatch' | 'invalidIntegrity' | 'name' | 'noIntegrity' | 'resourceNotSecure';
+export declare const getMessage: (message: MessageName, language: string, substitutions?: string | string[] | undefined) => string;
+//# sourceMappingURL=i18n.import.d.ts.map

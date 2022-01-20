@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Webhint</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <%- include('../partials/browser-icon', { getDataUri, result }); %>
+
+    <% styles.forEach((style) => { %>
+        <style>
+            /* Content from file: <%= style.file %> */
+            <%- style.content %>
+        </style>
+    <% }) %>
+</head>
+<body>
+    <%- include('../partials/scan-result', { getDataUri, getMessage, result, utils }); %>
+    <a href="#main" class="anchor-top" hidden aria-label="<%= getMessage('backToTop'); %>"><%= getMessage('top'); %></a>
+
+    <% scripts.forEach((script) => { %>
+        <script>
+            /* Content from file: <%= script.file %> */
+            <%- script.content %>
+        </script>
+    <% }) %>
+</body>
+</html>
