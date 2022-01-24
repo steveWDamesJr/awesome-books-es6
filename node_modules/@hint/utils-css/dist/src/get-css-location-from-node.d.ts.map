@@ -1,1 +1,0 @@
-{"version":3,"file":"get-css-location-from-node.d.ts","sourceRoot":"","sources":["../../src/get-css-location-from-node.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAe,MAAM,SAAS,CAAC;AACjD,OAAO,EAAE,eAAe,EAAE,MAAM,mBAAmB,CAAC;AAOpD,oBAAY,kBAAkB,GAAG;IAC7B,OAAO,CAAC,EAAE,OAAO,CAAC;CACrB,CAAA;AA8BD,eAAO,MAAM,sBAAsB,SAAU,SAAS,YAAW,kBAAkB,KAAQ,eAAe,GAAG,SA2B5G,CAAC"}

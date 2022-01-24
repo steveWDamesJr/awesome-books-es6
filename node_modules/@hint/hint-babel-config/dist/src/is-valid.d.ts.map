@@ -1,1 +1,0 @@
-{"version":3,"file":"is-valid.d.ts","sourceRoot":"","sources":["../../src/is-valid.ts"],"names":[],"mappings":"AAIA,OAAO,EAAE,WAAW,EAAE,KAAK,EAAE,MAAM,MAAM,CAAC;AAE1C,OAAO,EAAE,iBAAiB,EAA6E,MAAM,2BAA2B,CAAC;AAWzI,MAAM,CAAC,OAAO,OAAO,sBAAuB,YAAW,KAAK;IACxD,gBAAuB,IAAI,8BAAQ;gBAEhB,OAAO,EAAE,WAAW,CAAC,iBAAiB,CAAC;CA6C7D"}

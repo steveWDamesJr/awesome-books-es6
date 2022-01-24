@@ -1,3 +1,0 @@
-export declare type MessageName = 'babelModules' | 'configExists_description' | 'configExists_name' | 'configExists' | 'esnext' | 'isInstalled_description' | 'isInstalled_name' | 'isValid_description' | 'isValid_name' | 'isInstalled' | 'moduleEsnextTypescript_description' | 'moduleEsnextTypescript_name' | 'modulesFalseBabel_description' | 'modulesFalseBabel_name' | 'noDevtoolInProd_description' | 'noDevtoolInProd_name' | 'noEval';
-export declare const getMessage: (message: MessageName, language: string, substitutions?: string | string[] | undefined) => string;
-//# sourceMappingURL=i18n.import.d.ts.map

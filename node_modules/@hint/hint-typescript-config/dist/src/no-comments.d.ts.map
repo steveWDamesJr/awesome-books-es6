@@ -1,1 +1,0 @@
-{"version":3,"file":"no-comments.d.ts","sourceRoot":"","sources":["../../src/no-comments.ts"],"names":[],"mappings":"AAKA,OAAO,EAAE,WAAW,EAAE,KAAK,EAAE,MAAM,MAAM,CAAC;AAE1C,OAAO,EAAE,sBAAsB,EAAE,MAAM,gCAAgC,CAAC;AAaxE,MAAM,CAAC,OAAO,OAAO,0BAA2B,YAAW,KAAK;IAC5D,gBAAuB,IAAI,8BAAQ;gBAEhB,OAAO,EAAE,WAAW,CAAC,sBAAsB,CAAC;CAKlE"}

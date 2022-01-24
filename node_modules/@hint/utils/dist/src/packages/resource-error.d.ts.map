@@ -1,1 +1,0 @@
-{"version":3,"file":"resource-error.d.ts","sourceRoot":"","sources":["../../../src/packages/resource-error.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,mBAAmB,EAAE,MAAM,SAAS,CAAC;AAE9C,qBAAa,aAAc,SAAQ,KAAK;IAC7B,MAAM,EAAE,mBAAmB,CAAC;gBAEhB,KAAK,EAAE,KAAK,GAAG,MAAM,EAAE,MAAM,EAAE,mBAAmB;CAQxE"}

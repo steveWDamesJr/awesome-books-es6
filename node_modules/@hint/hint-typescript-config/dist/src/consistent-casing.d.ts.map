@@ -1,1 +1,0 @@
-{"version":3,"file":"consistent-casing.d.ts","sourceRoot":"","sources":["../../src/consistent-casing.ts"],"names":[],"mappings":"AAIA,OAAO,EAAE,sBAAsB,EAAE,MAAM,gCAAgC,CAAC;AACxE,OAAO,EAAE,WAAW,EAAE,KAAK,EAAE,MAAM,MAAM,CAAC;AAY1C,MAAM,CAAC,OAAO,OAAO,gCAAiC,YAAW,KAAK;IAClE,gBAAuB,IAAI,8BAAQ;gBAEhB,OAAO,EAAE,WAAW,CAAC,sBAAsB,CAAC;CAKlE"}
