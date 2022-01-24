@@ -1,1 +1,0 @@
-{"version":3,"file":"strict.d.ts","sourceRoot":"","sources":["../../src/strict.ts"],"names":[],"mappings":"AAIA,OAAO,EAAE,WAAW,EAAE,KAAK,EAAE,MAAM,MAAM,CAAC;AAE1C,OAAO,EAAE,sBAAsB,EAAE,MAAM,gCAAgC,CAAC;AAYxE,MAAM,CAAC,OAAO,OAAO,sBAAuB,YAAW,KAAK;IACxD,gBAAuB,IAAI,8BAAQ;gBAEhB,OAAO,EAAE,WAAW,CAAC,sBAAsB,CAAC;CAKlE"}

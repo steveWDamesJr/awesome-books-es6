@@ -1,3 +1,0 @@
-export declare type MessageName = 'description' | 'headerValueShouldBe' | 'metaElementDuplicated' | 'metaElementNotBody' | 'metaElementShouldBeSpecified' | 'metaElementShouldNotBeSpecified' | 'metaElementShouldNotBeSpecifiedUseHeader' | 'metaElementValueShouldBe' | 'metaElementWrongPosition' | 'name' | 'responseShouldInclude' | 'responseUnneeded';
-export declare const getMessage: (message: MessageName, language: string, substitutions?: string | string[] | undefined) => string;
-//# sourceMappingURL=i18n.import.d.ts.map
